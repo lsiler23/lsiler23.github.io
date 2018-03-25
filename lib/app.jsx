@@ -2,7 +2,9 @@ import React from 'react';
 import Header from './header/header';
 
 const App = () => (
-  <Header />
+  <div>
+    <Header />
+  </div>
 );
 
 export default App;

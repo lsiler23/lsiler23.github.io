@@ -8,6 +8,16 @@
   opacity: 0.7;
 }
 
+.name-and-title {
+  color: white;
+  font-size: 40px;
+  padding: 5px;
+}
+
+.name-and-title h2 {
+  font-size: 30px;
+}
+
 .about-header {
   margin-top: 42px;
   padding: 10px;

@@ -14,3 +14,21 @@
   border: 5px solid lightgrey;
   border-radius: 50%;
 }
+
+.personal {
+  margin-top: 100px;
+  padding: 10px;
+  width: 600px;
+  margin-left: 100px;
+}
+
+.personal h1 {
+  font-size: 40px;
+}
+
+.personal p {
+  padding: 10px;
+  padding-top: 20px;
+  line-height: 1.1;
+  text-align: end;
+}

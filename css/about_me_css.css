@@ -6,7 +6,8 @@
 .main-photo {
   padding: 10px;
   margin-left: 106px;
-  margin-top: 81px;
+  top: 169px;
+  position: fixed;
 }
 
 .actual-photo {
@@ -16,10 +17,10 @@
 }
 
 .personal {
-  margin-top: 100px;
+  margin-top: 200px;
   padding: 10px;
   width: 600px;
-  margin-left: 100px;
+  margin-left: 400px;
 }
 
 .personal h1 {
@@ -31,4 +32,51 @@
   padding-top: 20px;
   line-height: 1.1;
   text-align: end;
+}
+
+.links {
+  margin-top: 35px;
+  margin-left: 35px;
+  display: grid;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  background: #745657;
+  border: 1px dotted black;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 5px;
+  margin-left: -30px;
+  text-align: center;
+}
+
+.icon img {
+  height: 50px;
+  width: auto;
+}
+
+.written-content {
+  padding: 5px;
+  margin-bottom: 33px;
+  border-bottom: 1px solid lightgrey;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.all-icons {
+  flex-wrap: wrap;
+  display: flex;
+  width: 527px;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 72px;
+  margin: 30px;
+  text-align: center;
 }

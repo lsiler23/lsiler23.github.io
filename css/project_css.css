@@ -1,0 +1,52 @@
+.projects-content {
+  top: 177px;
+  left: 50px;
+  position: relative;
+}
+
+.project-h1 {
+  font-size: 30px;
+  width: 1100px;
+  padding: 35px;
+  top: 130px;
+  position: fixed;
+  margin-bottom: 20px;
+  border-bottom: 1px solid lightgrey;
+  z-index: 1;
+  background-color: white;
+}
+
+.project {
+  top: 79px;
+  position: relative;
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.slide-pic img {
+  height: 300px;
+  width: auto;
+}
+
+.project-info {
+  margin-left: 75px;
+}
+
+h3 {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.slide-info p {
+  margin-top: 50px;
+}
+
+.spacealone-pic img {
+  height: 300px;
+  width: auto;
+}
+
+.strawberryDOM-pic img {
+  height: 300px;
+  width: auto;
+}

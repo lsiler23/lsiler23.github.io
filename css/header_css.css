@@ -3,6 +3,7 @@
   position: fixed;
   height: 125px;
   width: 100%;
+  z-index: 1;
   justify-content: space-around;
   font-family: 'Lora', serif;
   background-image: url(../assets/hollyhocks.png);

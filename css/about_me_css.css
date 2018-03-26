@@ -1,6 +1,7 @@
 .about-me-content {
   display: flex;
   font-family: 'Lora', serif;
+  overflow-y: hidden;
 }
 
 .main-photo {

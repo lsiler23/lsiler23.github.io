@@ -65,6 +65,21 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {
+
+if (process.env.NODE_ENV === 'production') {
+  module.exports = __webpack_require__(15);
+} else {
+  module.exports = __webpack_require__(16);
+}
+
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ }),
+/* 1 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -254,7 +269,7 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 1 */
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -296,7 +311,7 @@ emptyFunction.thatReturnsArgument = function (arg) {
 module.exports = emptyFunction;
 
 /***/ }),
-/* 2 */
+/* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -393,7 +408,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 
 /***/ }),
-/* 3 */
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -414,22 +429,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 module.exports = emptyObject;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
-
-/***/ }),
-/* 4 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process) {
-
-if (process.env.NODE_ENV === 'production') {
-  module.exports = __webpack_require__(15);
-} else {
-  module.exports = __webpack_require__(16);
-}
-
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 5 */
@@ -489,7 +489,7 @@ function invariant(condition, format, a, b, c, d, e, f) {
 }
 
 module.exports = invariant;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 6 */
@@ -506,7 +506,7 @@ module.exports = invariant;
 
 
 
-var emptyFunction = __webpack_require__(1);
+var emptyFunction = __webpack_require__(2);
 
 /**
  * Similar to invariant but only logs a warning if the condition is not met.
@@ -558,7 +558,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 module.exports = warning;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 7 */
@@ -625,7 +625,7 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
 
 module.exports = checkPropTypes;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 8 */
@@ -682,7 +682,7 @@ module.exports = ExecutionEnvironment;
  * @typechecks
  */
 
-var emptyFunction = __webpack_require__(1);
+var emptyFunction = __webpack_require__(2);
 
 /**
  * Upstream version of event listener. Does not take into account specific
@@ -745,7 +745,7 @@ var EventListener = {
 };
 
 module.exports = EventListener;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 10 */
@@ -940,7 +940,7 @@ module.exports = focusNode;
 "use strict";
 
 
-var _react = __webpack_require__(4);
+var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -973,7 +973,7 @@ document.addEventListener('DOMContentLoaded', function () {
  * LICENSE file in the root directory of this source tree.
  */
 
-var m=__webpack_require__(2),n=__webpack_require__(3),p=__webpack_require__(1),q="function"===typeof Symbol&&Symbol["for"],r=q?Symbol["for"]("react.element"):60103,t=q?Symbol["for"]("react.call"):60104,u=q?Symbol["for"]("react.return"):60105,v=q?Symbol["for"]("react.portal"):60106,w=q?Symbol["for"]("react.fragment"):60107,x="function"===typeof Symbol&&Symbol.iterator;
+var m=__webpack_require__(3),n=__webpack_require__(4),p=__webpack_require__(2),q="function"===typeof Symbol&&Symbol["for"],r=q?Symbol["for"]("react.element"):60103,t=q?Symbol["for"]("react.call"):60104,u=q?Symbol["for"]("react.return"):60105,v=q?Symbol["for"]("react.portal"):60106,w=q?Symbol["for"]("react.fragment"):60107,x="function"===typeof Symbol&&Symbol.iterator;
 function y(a){for(var b=arguments.length-1,e="Minified React error #"+a+"; visit http://facebook.github.io/react/docs/error-decoder.html?invariant\x3d"+a,c=0;c<b;c++)e+="\x26args[]\x3d"+encodeURIComponent(arguments[c+1]);b=Error(e+" for the full message or use the non-minified dev environment for full errors and additional helpful warnings.");b.name="Invariant Violation";b.framesToPop=1;throw b;}
 var z={isMounted:function(){return!1},enqueueForceUpdate:function(){},enqueueReplaceState:function(){},enqueueSetState:function(){}};function A(a,b,e){this.props=a;this.context=b;this.refs=n;this.updater=e||z}A.prototype.isReactComponent={};A.prototype.setState=function(a,b){"object"!==typeof a&&"function"!==typeof a&&null!=a?y("85"):void 0;this.updater.enqueueSetState(this,a,b,"setState")};A.prototype.forceUpdate=function(a){this.updater.enqueueForceUpdate(this,a,"forceUpdate")};
 function B(a,b,e){this.props=a;this.context=b;this.refs=n;this.updater=e||z}function C(){}C.prototype=A.prototype;var D=B.prototype=new C;D.constructor=B;m(D,A.prototype);D.isPureReactComponent=!0;function E(a,b,e){this.props=a;this.context=b;this.refs=n;this.updater=e||z}var F=E.prototype=new C;F.constructor=E;m(F,A.prototype);F.unstable_isAsyncReactComponent=!0;F.render=function(){return this.props.children};var G={current:null},H=Object.prototype.hasOwnProperty,I={key:!0,ref:!0,__self:!0,__source:!0};
@@ -1009,11 +1009,11 @@ if (process.env.NODE_ENV !== "production") {
   (function() {
 'use strict';
 
-var _assign = __webpack_require__(2);
-var emptyObject = __webpack_require__(3);
+var _assign = __webpack_require__(3);
+var emptyObject = __webpack_require__(4);
 var invariant = __webpack_require__(5);
 var warning = __webpack_require__(6);
-var emptyFunction = __webpack_require__(1);
+var emptyFunction = __webpack_require__(2);
 var checkPropTypes = __webpack_require__(7);
 
 // TODO: this is special because it gets imported during build.
@@ -2350,7 +2350,7 @@ module.exports = react;
   })();
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 17 */
@@ -2415,7 +2415,7 @@ if (process.env.NODE_ENV === 'production') {
   module.exports = __webpack_require__(22);
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 19 */
@@ -2434,7 +2434,7 @@ if (process.env.NODE_ENV === 'production') {
 /*
  Modernizr 3.0.0pre (Custom Build) | MIT
 */
-var aa=__webpack_require__(4),l=__webpack_require__(8),B=__webpack_require__(2),C=__webpack_require__(1),ba=__webpack_require__(9),da=__webpack_require__(10),ea=__webpack_require__(11),fa=__webpack_require__(12),ia=__webpack_require__(13),D=__webpack_require__(3);
+var aa=__webpack_require__(0),l=__webpack_require__(8),B=__webpack_require__(3),C=__webpack_require__(2),ba=__webpack_require__(9),da=__webpack_require__(10),ea=__webpack_require__(11),fa=__webpack_require__(12),ia=__webpack_require__(13),D=__webpack_require__(4);
 function E(a){for(var b=arguments.length-1,c="Minified React error #"+a+"; visit http://facebook.github.io/react/docs/error-decoder.html?invariant\x3d"+a,d=0;d<b;d++)c+="\x26args[]\x3d"+encodeURIComponent(arguments[d+1]);b=Error(c+" for the full message or use the non-minified dev environment for full errors and additional helpful warnings.");b.name="Invariant Violation";b.framesToPop=1;throw b;}aa?void 0:E("227");
 var oa={children:!0,dangerouslySetInnerHTML:!0,defaultValue:!0,defaultChecked:!0,innerHTML:!0,suppressContentEditableWarning:!0,suppressHydrationWarning:!0,style:!0};function pa(a,b){return(a&b)===b}
 var ta={MUST_USE_PROPERTY:1,HAS_BOOLEAN_VALUE:4,HAS_NUMERIC_VALUE:8,HAS_POSITIVE_NUMERIC_VALUE:24,HAS_OVERLOADED_BOOLEAN_VALUE:32,HAS_STRING_BOOLEAN_VALUE:64,injectDOMPropertyConfig:function(a){var b=ta,c=a.Properties||{},d=a.DOMAttributeNamespaces||{},e=a.DOMAttributeNames||{};a=a.DOMMutationMethods||{};for(var f in c){ua.hasOwnProperty(f)?E("48",f):void 0;var g=f.toLowerCase(),h=c[f];g={attributeName:g,attributeNamespace:null,propertyName:f,mutationMethod:null,mustUseProperty:pa(h,b.MUST_USE_PROPERTY),
@@ -2731,18 +2731,18 @@ if (process.env.NODE_ENV !== "production") {
   (function() {
 'use strict';
 
-var React = __webpack_require__(4);
+var React = __webpack_require__(0);
 var invariant = __webpack_require__(5);
 var warning = __webpack_require__(6);
 var ExecutionEnvironment = __webpack_require__(8);
-var _assign = __webpack_require__(2);
-var emptyFunction = __webpack_require__(1);
+var _assign = __webpack_require__(3);
+var emptyFunction = __webpack_require__(2);
 var EventListener = __webpack_require__(9);
 var getActiveElement = __webpack_require__(10);
 var shallowEqual = __webpack_require__(11);
 var containsNode = __webpack_require__(12);
 var focusNode = __webpack_require__(13);
-var emptyObject = __webpack_require__(3);
+var emptyObject = __webpack_require__(4);
 var checkPropTypes = __webpack_require__(7);
 var hyphenateStyleName = __webpack_require__(23);
 var camelizeStyleName = __webpack_require__(25);
@@ -18109,7 +18109,7 @@ module.exports = reactDom;
   })();
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 23 */
@@ -18278,7 +18278,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(4);
+var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -18305,7 +18305,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(4);
+var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -18338,7 +18338,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(4);
+var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -18457,17 +18457,15 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(4);
+var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
 var _about_me = __webpack_require__(31);
 
-var _about_me2 = _interopRequireDefault(_about_me);
-
 var _projects = __webpack_require__(32);
 
-var _projects2 = _interopRequireDefault(_projects);
+var _contact = __webpack_require__(33);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -18494,11 +18492,11 @@ var Body = function (_React$Component) {
       var selectedComponent = void 0;
 
       if (current === '1') {
-        selectedComponent = _react2.default.createElement(_about_me2.default, null);
+        selectedComponent = _react2.default.createElement(_about_me.AboutMe, null);
       } else if (current === '2') {
-        selectedComponent = _react2.default.createElement(_projects2.default, null);
+        selectedComponent = _react2.default.createElement(_projects.Projects, null);
       } else {
-        selectedComponent = 'contact';
+        selectedComponent = _react2.default.createElement(_contact.Contact, null);
       }
 
       return _react2.default.createElement(
@@ -18524,194 +18522,171 @@ exports.default = Body;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.AboutMe = undefined;
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(4);
+var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+var AboutMe = exports.AboutMe = function AboutMe() {
 
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var AboutMe = function (_React$Component) {
-  _inherits(AboutMe, _React$Component);
-
-  function AboutMe() {
-    _classCallCheck(this, AboutMe);
-
-    return _possibleConstructorReturn(this, (AboutMe.__proto__ || Object.getPrototypeOf(AboutMe)).apply(this, arguments));
-  }
-
-  _createClass(AboutMe, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
+  return _react2.default.createElement(
+    'div',
+    { className: 'about-me-content' },
+    _react2.default.createElement(
+      'div',
+      { className: 'main-photo' },
+      _react2.default.createElement('img', { className: 'actual-photo', src: './assets/mepic.png' }),
+      _react2.default.createElement(
         'div',
-        { className: 'about-me-content' },
+        { className: 'links' },
         _react2.default.createElement(
-          'div',
-          { className: 'main-photo' },
-          _react2.default.createElement('img', { className: 'actual-photo', src: './assets/mepic.png' }),
-          _react2.default.createElement(
-            'div',
-            { className: 'links' },
-            _react2.default.createElement(
-              'a',
-              { href: 'https://docs.google.com/document/d/1Sk53SmQVPofQwNk82MGNmmMPpHZYCz8odNrE6OYEy38/edit?usp=sharing' },
-              'Resume'
-            ),
-            _react2.default.createElement(
-              'a',
-              { href: 'https://github.com/lsiler23' },
-              'Github'
-            ),
-            _react2.default.createElement(
-              'a',
-              { href: 'https://www.linkedin.com/in/laurette-siler-b4335569/' },
-              'LinkedIn'
-            )
-          )
+          'a',
+          { href: 'https://docs.google.com/document/d/1Sk53SmQVPofQwNk82MGNmmMPpHZYCz8odNrE6OYEy38/edit?usp=sharing' },
+          'Resume'
+        ),
+        _react2.default.createElement(
+          'a',
+          { href: 'https://github.com/lsiler23' },
+          'Github'
+        ),
+        _react2.default.createElement(
+          'a',
+          { href: 'https://www.linkedin.com/in/laurette-siler-b4335569/' },
+          'LinkedIn'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'personal' },
+      _react2.default.createElement(
+        'div',
+        { className: 'written-content' },
+        _react2.default.createElement(
+          'h1',
+          null,
+          'My name is Laurette Siler and I\'m a Software Developer'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          "In early 2017, I discovered a love for coding unexpectedly. I was working as a member of the Customer Experience Tech Team at Blue Apron and tasked with reporting bugs in the website and iOS app to the Engineering Department. I became fascinated with the end-to-end communication involved in ensuring that the website continued running smoothly. My fascination escalated over time, so I decided to take the leap and start teaching myself to code."
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          "Now, I'm experienced in every aspect of Full Stack development. So far, I've been working with Ruby on Rails on the backend and React and Redux on the frontend, though I'm excited to expand my knowledge every chance I can get. I absolutely love my career and can't wait to continue to build amazing apps."
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(
+          'h2',
+          null,
+          'Skill Set'
         ),
         _react2.default.createElement(
           'div',
-          { className: 'personal' },
+          { className: 'all-icons' },
           _react2.default.createElement(
             'div',
-            { className: 'written-content' },
+            { className: 'icon' },
+            _react2.default.createElement('img', { src: './assets/react.png' }),
             _react2.default.createElement(
-              'h1',
+              'span',
               null,
-              'My name is Laurette Siler and I\'m a Software Developer'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              "In early 2017, I discovered a love for coding unexpectedly. I was working as a member of the Customer Experience Tech Team at Blue Apron and tasked with reporting bugs in the website and iOS app to the Engineering Department. I became fascinated with the end-to-end communication involved in ensuring that the website continued running smoothly. My fascination escalated over time, so I decided to take the leap and start teaching myself to code."
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              "Now, I'm experienced in every aspect of Full Stack development. So far, I've been working with Ruby on Rails on the backend and React and Redux on the frontend, though I'm excited to expand my knowledge every chance I can get. I absolutely love my career and can't wait to continue to build amazing apps."
+              'React'
             )
           ),
           _react2.default.createElement(
             'div',
-            null,
+            { className: 'icon' },
+            _react2.default.createElement('img', { src: './assets/redux.png' }),
             _react2.default.createElement(
-              'h2',
+              'span',
               null,
-              'Skill Set'
-            ),
+              'Redux'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'icon' },
+            _react2.default.createElement('img', { src: './assets/javascript.svg' }),
             _react2.default.createElement(
-              'div',
-              { className: 'all-icons' },
-              _react2.default.createElement(
-                'div',
-                { className: 'icon' },
-                _react2.default.createElement('img', { src: './assets/react.png' }),
-                _react2.default.createElement(
-                  'span',
-                  null,
-                  'React'
-                )
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'icon' },
-                _react2.default.createElement('img', { src: './assets/redux.png' }),
-                _react2.default.createElement(
-                  'span',
-                  null,
-                  'Redux'
-                )
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'icon' },
-                _react2.default.createElement('img', { src: './assets/javascript.svg' }),
-                _react2.default.createElement(
-                  'span',
-                  null,
-                  'JavaScript'
-                )
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'icon' },
-                _react2.default.createElement('img', { src: './assets/ruby.svg.png' }),
-                _react2.default.createElement(
-                  'span',
-                  null,
-                  'Ruby'
-                )
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'icon' },
-                _react2.default.createElement('img', { src: './assets/rails.png' }),
-                _react2.default.createElement(
-                  'span',
-                  null,
-                  'Rails'
-                )
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'icon' },
-                _react2.default.createElement('img', { src: './assets/postgresql.svg.png' }),
-                _react2.default.createElement(
-                  'span',
-                  null,
-                  'PostgreSQL'
-                )
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'icon' },
-                _react2.default.createElement('img', { src: './assets/jquery.png' }),
-                _react2.default.createElement(
-                  'span',
-                  null,
-                  'jQuery'
-                )
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'icon' },
-                _react2.default.createElement('img', { src: './assets/html.ico' }),
-                _react2.default.createElement(
-                  'span',
-                  null,
-                  'HTML5 & Canvas'
-                )
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'icon' },
-                _react2.default.createElement('img', { src: './assets/css3.png' }),
-                _react2.default.createElement(
-                  'span',
-                  null,
-                  'CSS3'
-                )
-              )
+              'span',
+              null,
+              'JavaScript'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'icon' },
+            _react2.default.createElement('img', { src: './assets/ruby.svg.png' }),
+            _react2.default.createElement(
+              'span',
+              null,
+              'Ruby'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'icon' },
+            _react2.default.createElement('img', { src: './assets/rails.png' }),
+            _react2.default.createElement(
+              'span',
+              null,
+              'Rails'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'icon' },
+            _react2.default.createElement('img', { src: './assets/postgresql.svg.png' }),
+            _react2.default.createElement(
+              'span',
+              null,
+              'PostgreSQL'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'icon' },
+            _react2.default.createElement('img', { src: './assets/jquery.png' }),
+            _react2.default.createElement(
+              'span',
+              null,
+              'jQuery'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'icon' },
+            _react2.default.createElement('img', { src: './assets/html.ico' }),
+            _react2.default.createElement(
+              'span',
+              null,
+              'HTML5 & Canvas'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'icon' },
+            _react2.default.createElement('img', { src: './assets/css3.png' }),
+            _react2.default.createElement(
+              'span',
+              null,
+              'CSS3'
             )
           )
         )
-      );
-    }
-  }]);
-
-  return AboutMe;
-}(_react2.default.Component);
-
-exports.default = AboutMe;
+      )
+    )
+  );
+};
 
 /***/ }),
 /* 32 */
@@ -18723,133 +18698,184 @@ exports.default = AboutMe;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.Projects = undefined;
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(4);
+var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var Projects = function (_React$Component) {
-  _inherits(Projects, _React$Component);
-
-  function Projects() {
-    _classCallCheck(this, Projects);
-
-    return _possibleConstructorReturn(this, (Projects.__proto__ || Object.getPrototypeOf(Projects)).apply(this, arguments));
-  }
-
-  _createClass(Projects, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
+var Projects = exports.Projects = function Projects() {
+  return _react2.default.createElement(
+    'div',
+    { className: 'projects-content' },
+    _react2.default.createElement(
+      'h1',
+      { className: 'project-h1' },
+      'Projects'
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'project' },
+      _react2.default.createElement(
         'div',
-        { className: 'projects-content' },
+        { className: 'slide-pic' },
+        _react2.default.createElement('img', { src: './assets/slide.png' })
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'project-info' },
         _react2.default.createElement(
-          'h1',
-          { className: 'project-h1' },
-          'Projects'
+          'h2',
+          null,
+          'Slide'
         ),
         _react2.default.createElement(
-          'div',
-          { className: 'project' },
-          _react2.default.createElement(
-            'div',
-            { className: 'slide-pic' },
-            _react2.default.createElement('img', { src: './assets/slide.png' })
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'project-info' },
-            _react2.default.createElement(
-              'h2',
-              null,
-              'Slide'
-            ),
-            _react2.default.createElement(
-              'h3',
-              null,
-              'Rails, React/Redux, Action Cable/Websockets'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'Slide is a live messaging app.'
-            )
-          )
+          'h3',
+          null,
+          'Rails, React/Redux, Action Cable/Websockets'
         ),
         _react2.default.createElement(
-          'div',
-          { className: 'project' },
-          _react2.default.createElement(
-            'div',
-            { className: 'spacealone-pic' },
-            _react2.default.createElement('img', { src: './assets/spacealone.png' })
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'project-info' },
-            _react2.default.createElement(
-              'h2',
-              null,
-              'SpaceAlone'
-            ),
-            _react2.default.createElement(
-              'h3',
-              null,
-              'Vanilla JavaScript, HTML5, CSS3'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'SpaceAlone is a game.'
-            )
-          )
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'project' },
-          _react2.default.createElement(
-            'div',
-            { className: 'strawberryDOM-pic' },
-            _react2.default.createElement('img', { src: './assets/strawberry.png' })
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'project-info' },
-            _react2.default.createElement(
-              'h2',
-              null,
-              'strawberryDOM'
-            ),
-            _react2.default.createElement(
-              'h3',
-              null,
-              'Vanilla JavaScript, HTML5, CSS3'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'strawberryDOM is a DOM manipulation library.'
-            )
-          )
+          'p',
+          null,
+          'Slide is a live messaging app.'
         )
-      );
-    }
-  }]);
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'project' },
+      _react2.default.createElement(
+        'div',
+        { className: 'spacealone-pic' },
+        _react2.default.createElement('img', { src: './assets/spacealone.png' })
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'project-info' },
+        _react2.default.createElement(
+          'h2',
+          null,
+          'SpaceAlone'
+        ),
+        _react2.default.createElement(
+          'h3',
+          null,
+          'Vanilla JavaScript, HTML5, CSS3'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'SpaceAlone is a game.'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'project' },
+      _react2.default.createElement(
+        'div',
+        { className: 'strawberryDOM-pic' },
+        _react2.default.createElement('img', { src: './assets/strawberry.png' })
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'project-info' },
+        _react2.default.createElement(
+          'h2',
+          null,
+          'strawberryDOM'
+        ),
+        _react2.default.createElement(
+          'h3',
+          null,
+          'Vanilla JavaScript, HTML5, CSS3'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'strawberryDOM is a DOM manipulation library.'
+        )
+      )
+    )
+  );
+};
 
-  return Projects;
-}(_react2.default.Component);
+/***/ }),
+/* 33 */
+/***/ (function(module, exports, __webpack_require__) {
 
-exports.default = Projects;
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Contact = undefined;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Contact = exports.Contact = function Contact() {
+
+  return _react2.default.createElement(
+    'div',
+    { className: 'contact-content' },
+    _react2.default.createElement(
+      'h1',
+      { className: 'contact-h1' },
+      'Contact'
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'contact-info-details' },
+      _react2.default.createElement(
+        'h2',
+        null,
+        'Email'
+      ),
+      _react2.default.createElement(
+        'div',
+        null,
+        'siler.laurette@gmail.com'
+      ),
+      _react2.default.createElement(
+        'h2',
+        null,
+        'Location'
+      ),
+      _react2.default.createElement(
+        'div',
+        null,
+        'Brooklyn, NY'
+      ),
+      _react2.default.createElement(
+        'h2',
+        null,
+        'Github'
+      ),
+      _react2.default.createElement(
+        'div',
+        null,
+        'lsiler23'
+      ),
+      _react2.default.createElement(
+        'h2',
+        null,
+        'LinkedIn'
+      ),
+      _react2.default.createElement(
+        'div',
+        null,
+        'laurettesiler'
+      )
+    )
+  );
+};
 
 /***/ })
 /******/ ]);

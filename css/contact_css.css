@@ -1,0 +1,40 @@
+.contact-content {
+  position: relative;
+  top: 177px;
+  left: 50px;
+}
+
+.contact-h1 {
+  font-size: 30px;
+  width: 1100px;
+  padding: 35px;
+  top: 130px;
+  position: fixed;
+  margin-bottom: 20px;
+  border-bottom: 1px solid lightgrey;
+  z-index: 1;
+  background-color: white;
+}
+.contact-info-details {
+  position: relative;
+  top: 88px;
+  box-sizing: border-box;
+  width: 500px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 3px;
+  margin-left: calc(100% - 940px);
+  color: white;
+  text-shadow: 1px 1px black;
+  background-color: #877f7f;
+  box-shadow: 1px 1px lightgrey;
+}
+
+.contact-info-details h2 {
+  padding: 10px;
+  text-emphasis
+}
+
+.contact-info-details div {
+  margin-left: 8px;
+}

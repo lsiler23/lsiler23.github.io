@@ -1,6 +1,7 @@
 import React from 'react';
-import AboutMe from './about_me';
-import Projects from './projects';
+import { AboutMe } from './about_me';
+import { Projects } from './projects';
+import { Contact } from './contact';
 
 export default class Body extends React.Component {
   constructor(props) {
@@ -16,7 +17,7 @@ export default class Body extends React.Component {
     } else if (current === '2') {
       selectedComponent = <Projects />;
     } else {
-      selectedComponent = 'contact';
+      selectedComponent = <Contact />;
     }
 
     return (

@@ -9,12 +9,15 @@
   background-image: url(../assets/hollyhocks.png);
   background-size: cover;
   border-bottom: 5px solid #cbadad;
+  box-shadow: 1px 1px 1px 1px lightgrey;
 }
 
 .name-and-title {
   color: white;
   font-size: 40px;
   padding: 5px;
+  text-shadow: 1px 1px black;
+  padding-top: 25px;
 }
 
 .name-and-title h2 {
@@ -27,13 +30,14 @@
   font-size: 20px;
   height: 23px;
   border-radius: 2px;
-  box-shadow: 1px 1px lightgrey;
+  box-shadow: 1px 1px 1px 1px grey;
   background-color: #cbadad;
   color: #fff;
+  text-shadow: 1px 1px black;
 }
 
 .selected {
   height: auto;
   box-shadow: 1px 1px #cbadad;
-  transition: 0.4s;
+  transition: 0.1s;
 }

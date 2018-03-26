@@ -18544,7 +18544,7 @@ var AboutMe = exports.AboutMe = function AboutMe() {
         { className: 'links' },
         _react2.default.createElement(
           'a',
-          { href: 'https://docs.google.com/document/d/1Sk53SmQVPofQwNk82MGNmmMPpHZYCz8odNrE6OYEy38/edit?usp=sharing' },
+          { href: 'https://drive.google.com/open?id=1KTRFWYLbysKev08sIHeWjMdu5qss_FJ-' },
           'Resume'
         ),
         _react2.default.createElement(

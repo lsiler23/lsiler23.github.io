@@ -7,7 +7,7 @@ export const AboutMe = () => {
       <div className='main-photo'>
         <img className='actual-photo' src='./assets/mepic.png'/>
         <div className='links'>
-          <a href='https://docs.google.com/document/d/1Sk53SmQVPofQwNk82MGNmmMPpHZYCz8odNrE6OYEy38/edit?usp=sharing'>Resume</a>
+          <a href='https://drive.google.com/open?id=1KTRFWYLbysKev08sIHeWjMdu5qss_FJ-'>Resume</a>
           <a href='https://github.com/lsiler23'>Github</a>
           <a href='https://www.linkedin.com/in/laurette-siler-b4335569/'>LinkedIn</a>
         </div>

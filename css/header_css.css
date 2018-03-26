@@ -9,7 +9,6 @@
   background-image: url(../assets/hollyhocks.png);
   background-size: cover;
   border-bottom: 5px solid #cbadad;
-  box-shadow: 1px 1px 1px 1px lightgrey;
 }
 
 .name-and-title {
@@ -34,10 +33,18 @@
   background-color: #cbadad;
   color: #fff;
   text-shadow: 1px 1px black;
+  cursor: pointer;
 }
 
 .selected {
   height: auto;
   box-shadow: 1px 1px #cbadad;
   transition: 0.1s;
+}
+
+.main-content {
+  overflow-y: scroll;
+  height: 600px;
+  position: relative;
+  top: 130px;
 }

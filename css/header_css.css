@@ -47,4 +47,5 @@
   height: 600px;
   position: relative;
   top: 130px;
+  overflow-x: hidden;
 }

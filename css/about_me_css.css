@@ -6,8 +6,8 @@
 
 .main-photo {
   padding: 10px;
-  margin-left: 106px;
-  top: 169px;
+  margin-left: calc(100% - 1513px);
+  top: 208px;
   position: fixed;
 }
 
@@ -21,7 +21,7 @@
   margin-top: 52px;
   padding: 10px;
   width: 600px;
-  margin-left: 400px;
+  margin-left: calc(100% - 900px);
 }
 
 .personal h1 {

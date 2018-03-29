@@ -36,7 +36,7 @@ export default class Projects extends React.Component {
           <div className='project'>
             <div className='slide-pic'>
               <img className='slide-still off' src='./assets/slide.png'/>
-              <img className='slide-gif' src='./assets/slide.gif' />
+              <img className='slide-gif' src='./assets/slide2.gif' />
             </div>
             <div className='project-info'>
               <h2>Slide</h2>
@@ -78,7 +78,7 @@ export default class Projects extends React.Component {
           <div className='project'>
             <div className='strawberry-pic'>
               <img className='strawberry-still off' src='./assets/strawberry.png'/>
-              <img className='strawberry-gif' src='./assets/adompt.gif' />
+              <img className='strawberry-gif' src='./assets/adompt2.gif' />
             </div>
             <div className='project-info'>
               <h2>strawberryDOM</h2>

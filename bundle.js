@@ -18775,7 +18775,7 @@ var Projects = function (_React$Component) {
               'div',
               { className: 'slide-pic' },
               _react2.default.createElement('img', { className: 'slide-still off', src: './assets/slide.png' }),
-              _react2.default.createElement('img', { className: 'slide-gif', src: './assets/slide.gif' })
+              _react2.default.createElement('img', { className: 'slide-gif', src: './assets/slide2.gif' })
             ),
             _react2.default.createElement(
               'div',
@@ -18909,7 +18909,7 @@ var Projects = function (_React$Component) {
               'div',
               { className: 'strawberry-pic' },
               _react2.default.createElement('img', { className: 'strawberry-still off', src: './assets/strawberry.png' }),
-              _react2.default.createElement('img', { className: 'strawberry-gif', src: './assets/adompt.gif' })
+              _react2.default.createElement('img', { className: 'strawberry-gif', src: './assets/adompt2.gif' })
             ),
             _react2.default.createElement(
               'div',

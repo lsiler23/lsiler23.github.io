@@ -1,6 +1,5 @@
 .about-me-content {
   display: flex;
-  height: 800px;
   font-family: 'Lora', serif;
 }
 
@@ -21,10 +20,8 @@
   margin-top: 1px;
   padding: 16px;
   width: 54%;
-  height: 700px;
-  overflow-y: scroll;
   position: relative;
-  left: 44%;
+  left: 38%;
 }
 
 .personal h1 {

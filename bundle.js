@@ -19029,7 +19029,7 @@ var Contact = exports.Contact = function Contact() {
         { className: 'contact-sect' },
         _react2.default.createElement(
           'h2',
-          null,
+          { className: 'contact-h2' },
           'Email'
         ),
         _react2.default.createElement(
@@ -19043,7 +19043,7 @@ var Contact = exports.Contact = function Contact() {
         { className: 'contact-sect' },
         _react2.default.createElement(
           'h2',
-          null,
+          { className: 'contact-h2' },
           'Location'
         ),
         _react2.default.createElement(
@@ -19057,7 +19057,7 @@ var Contact = exports.Contact = function Contact() {
         { className: 'contact-sect' },
         _react2.default.createElement(
           'h2',
-          null,
+          { className: 'contact-h2' },
           'Github'
         ),
         _react2.default.createElement(
@@ -19071,7 +19071,7 @@ var Contact = exports.Contact = function Contact() {
         { className: 'contact-sect' },
         _react2.default.createElement(
           'h2',
-          null,
+          { className: 'contact-h2' },
           'LinkedIn'
         ),
         _react2.default.createElement(

@@ -1,6 +1,5 @@
 .projects-content {
   top: 65px;
-  overflow-y: scroll;
   position: relative;
   font-family: 'Lora', serif;
 }
@@ -16,10 +15,6 @@
   border-bottom: 1px solid lightgrey;
   z-index: 1;
   background-color: white;
-}
-
-.all-projects {
-  height: 800px;
 }
 
 .project {

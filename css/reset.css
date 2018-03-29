@@ -30,8 +30,12 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	overflow: hidden;
 }
+
+body::-webkit-scrollbar {
+	width: 0;
+}
+
 ol, ul {
 	list-style: none;
 }

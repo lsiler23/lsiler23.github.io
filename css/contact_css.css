@@ -35,21 +35,20 @@
 .contact-sect {
   display: flex;
   justify-content: space-between;
-  margin: 25px;
 }
 
-.contact-info-details h2 {
+.contact-h2 {
   padding: 10px;
-  text-emphasis
+  margin-top: 0;
+
 }
 
 .contact-info-details a {
   text-decoration: none;
   color: white;
   cursor: pointer;
-  padding: 7px;
+  padding: 13px;
   border-radius: 3px;
-  margin: 10px;
 }
 
 .contact-info-details a:hover {

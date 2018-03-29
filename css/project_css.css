@@ -64,7 +64,7 @@ h3 {
 }
 
 .project-ul {
-  list-style-type: upper-roman;
+  list-style-type: circle;
   width: 500px;
   font-size: 12px;
 }

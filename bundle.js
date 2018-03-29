@@ -19025,44 +19025,60 @@ var Contact = exports.Contact = function Contact() {
       'div',
       { className: 'contact-info-details' },
       _react2.default.createElement(
-        'h2',
-        null,
-        'Email'
-      ),
-      _react2.default.createElement(
-        'a',
-        { href: 'mailto:siler.laurette@gmail.com' },
-        'siler.laurette@gmail.com'
-      ),
-      _react2.default.createElement(
-        'h2',
-        null,
-        'Location'
+        'div',
+        { className: 'contact-sect' },
+        _react2.default.createElement(
+          'h2',
+          null,
+          'Email'
+        ),
+        _react2.default.createElement(
+          'a',
+          { href: 'mailto:siler.laurette@gmail.com' },
+          'siler.laurette@gmail.com'
+        )
       ),
       _react2.default.createElement(
         'div',
-        null,
-        'Brooklyn, NY'
-      ),
-      _react2.default.createElement(
-        'h2',
-        null,
-        'Github'
-      ),
-      _react2.default.createElement(
-        'div',
-        null,
-        'lsiler23'
-      ),
-      _react2.default.createElement(
-        'h2',
-        null,
-        'LinkedIn'
+        { className: 'contact-sect' },
+        _react2.default.createElement(
+          'h2',
+          null,
+          'Location'
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'brooklyn' },
+          'Brooklyn, NY'
+        )
       ),
       _react2.default.createElement(
         'div',
-        null,
-        'laurettesiler'
+        { className: 'contact-sect' },
+        _react2.default.createElement(
+          'h2',
+          null,
+          'Github'
+        ),
+        _react2.default.createElement(
+          'a',
+          { href: 'https://github.com/lsiler23' },
+          'lsiler23'
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'contact-sect' },
+        _react2.default.createElement(
+          'h2',
+          null,
+          'LinkedIn'
+        ),
+        _react2.default.createElement(
+          'a',
+          { href: 'https://www.linkedin.com/in/laurette-siler-b4335569/' },
+          'laurette-siler'
+        )
       )
     )
   );

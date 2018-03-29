@@ -21,6 +21,7 @@
   top: -16px;
   box-sizing: border-box;
   width: 500px;
+  height: 500px;
   text-align: center;
   padding: 20px;
   border-radius: 3px;
@@ -31,11 +32,31 @@
   box-shadow: 1px 1px lightgrey;
 }
 
+.contact-sect {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
 .contact-info-details h2 {
   padding: 10px;
   text-emphasis
 }
 
-.contact-info-details div {
-  margin-left: 8px;
+.contact-info-details a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+.contact-info-details a:hover {
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.brooklyn {
+  padding: 19px;
 }

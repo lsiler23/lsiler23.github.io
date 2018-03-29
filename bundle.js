@@ -18590,7 +18590,7 @@ var AboutMe = exports.AboutMe = function AboutMe() {
       ),
       _react2.default.createElement(
         'div',
-        null,
+        { className: 'skills' },
         _react2.default.createElement(
           'h2',
           null,

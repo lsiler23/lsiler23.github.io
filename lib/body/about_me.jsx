@@ -31,7 +31,7 @@ export const AboutMe = () => {
             }
           </p>
         </div>
-      <div>
+      <div className='skills'>
         <h2>Skill Set</h2>
         <div className='all-icons'>
           <div className='icon'>

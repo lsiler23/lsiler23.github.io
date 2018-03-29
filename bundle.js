@@ -18842,7 +18842,7 @@ var Projects = function (_React$Component) {
               'div',
               { className: 'spacealone-pic' },
               _react2.default.createElement('img', { className: 'spacealone-still off', src: './assets/spacealone.png' }),
-              _react2.default.createElement('img', { className: 'spacealone-gif', src: './assets/spacealone4.gif' })
+              _react2.default.createElement('img', { className: 'spacealone-gif', src: './assets/spacealone5.gif' })
             ),
             _react2.default.createElement(
               'div',

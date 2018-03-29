@@ -57,7 +57,7 @@ export default class Projects extends React.Component {
           <div className='project'>
             <div className='spacealone-pic'>
               <img className='spacealone-still off' src='./assets/spacealone.png'/>
-              <img className='spacealone-gif' src='./assets/spacealone4.gif' />
+              <img className='spacealone-gif' src='./assets/spacealone5.gif' />
             </div>
             <div className='project-info'>
               <h2>SpaceAlone</h2>

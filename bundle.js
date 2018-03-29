@@ -18575,7 +18575,12 @@ var AboutMe = exports.AboutMe = function AboutMe() {
         _react2.default.createElement(
           'p',
           null,
-          "In early 2017, I discovered a love for coding unexpectedly. I was working as a member of the Customer Experience Tech Team at Blue Apron and tasked with reporting bugs in the website and iOS app to the Engineering Department. I became fascinated with the end-to-end communication involved in ensuring that the website continued running smoothly. My fascination escalated over time, so I decided to take the leap and start teaching myself to code."
+          "I discovered a love for coding in a buggy place. My job was to research and report bugs to a team of talented engineers. I became fascinated with the complex end-to-end communication involved in ensuring that the company I was working for continued running smoothly. At the end of the day, I learned, success was measured by how easily customers were able to interact with their accounts."
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          "My fascination escalated quickly. I started to devote all of my free time to reading books on Ruby and JavaScript. I broke and fixed my own programs every chance I could get. Finally, I decided to take a risk for the thing I loved to do and attended a coding intensive program."
         ),
         _react2.default.createElement(
           'p',
@@ -18762,215 +18767,219 @@ var Projects = function (_React$Component) {
         ),
         _react2.default.createElement(
           'div',
-          { className: 'project' },
+          { className: 'all-projects' },
           _react2.default.createElement(
             'div',
-            { className: 'slide-pic' },
-            _react2.default.createElement('img', { className: 'slide-still off', src: './assets/slide.png' }),
-            _react2.default.createElement('img', { className: 'slide-gif', src: './assets/slide.gif' })
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'project-info' },
+            { className: 'project' },
             _react2.default.createElement(
-              'h2',
-              null,
-              'Slide'
-            ),
-            _react2.default.createElement(
-              'h3',
-              null,
-              'Rails, React/Redux, Action Cable/Websockets'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'Slide is a live messaging app.'
-            ),
-            _react2.default.createElement(
-              'ul',
-              { className: 'project-ul' },
-              _react2.default.createElement(
-                'li',
-                null,
-                'Live messaging is made possible using Rails\u2019 Websockets interface (Action Cable)'
-              ),
-              _react2.default.createElement(
-                'li',
-                null,
-                'Users maintain access to their channels/direct messages via systematic database storage'
-              ),
-              _react2.default.createElement(
-                'li',
-                null,
-                'Includes a GIPHY API shortcut available in any channel or direct message'
-              ),
-              _react2.default.createElement(
-                'li',
-                null,
-                'Ensures user and database security via end-to-end authentication'
-              )
+              'div',
+              { className: 'slide-pic' },
+              _react2.default.createElement('img', { className: 'slide-still off', src: './assets/slide.png' }),
+              _react2.default.createElement('img', { className: 'slide-gif', src: './assets/slide.gif' })
             ),
             _react2.default.createElement(
               'div',
-              { className: 'links' },
+              { className: 'project-info' },
               _react2.default.createElement(
-                'a',
-                { className: 'link', href: 'http://slide-chat-app.herokuapp.com/#/' },
-                'Live'
+                'h2',
+                null,
+                'Slide'
               ),
               _react2.default.createElement(
-                'a',
-                { className: 'link', href: 'https://github.com/lsiler23/slide' },
-                'Github'
-              )
-            )
-          )
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'project' },
-          _react2.default.createElement(
-            'div',
-            { className: 'spacealone-pic' },
-            _react2.default.createElement('img', { className: 'spacealone-still off', src: './assets/spacealone.png' }),
-            _react2.default.createElement('img', { className: 'spacealone-gif', src: './assets/spacealone4.gif' })
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'project-info' },
-            _react2.default.createElement(
-              'h2',
-              null,
-              'SpaceAlone'
-            ),
-            _react2.default.createElement(
-              'h3',
-              null,
-              'Vanilla JavaScript, HTML5, CSS3'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'SpaceAlone is an arcade-like game in which the player must respond to directives and perform the corresponding action for points - on a spaceship..'
-            ),
-            _react2.default.createElement(
-              'ul',
-              { className: 'project-ul' },
-              _react2.default.createElement(
-                'li',
+                'h3',
                 null,
-                'Players can choose their level of difficulty before each game, allowing for a more customizable experience.'
+                'Rails, React/Redux, Action Cable/Websockets'
               ),
               _react2.default.createElement(
-                'li',
+                'p',
                 null,
-                'A randomized directive  generator turns on event listeners on only the target controls.'
+                'Slide is a live messaging app.'
               ),
               _react2.default.createElement(
-                'li',
-                null,
-                'If a directive is completed in time, additional directives are provided to promote game responsiveness.'
-              ),
-              _react2.default.createElement(
-                'li',
-                null,
-                'Though randomized, the generator is aware of default settings on controls, as well as which other variations are allowed per each control.'
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'links' },
-              _react2.default.createElement(
-                'a',
-                { className: 'link', href: 'https://lsiler23.github.io/SpaceAlone/' },
-                'Live'
-              ),
-              _react2.default.createElement(
-                'a',
-                { className: 'link', href: 'https://github.com/lsiler23/SpaceAlone' },
-                'Github'
-              )
-            )
-          )
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'project' },
-          _react2.default.createElement(
-            'div',
-            { className: 'strawberry-pic' },
-            _react2.default.createElement('img', { className: 'strawberry-still off', src: './assets/strawberry.png' }),
-            _react2.default.createElement('img', { className: 'strawberry-gif', src: './assets/adompt.gif' })
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'project-info' },
-            _react2.default.createElement(
-              'h2',
-              null,
-              'strawberryDOM'
-            ),
-            _react2.default.createElement(
-              'h3',
-              null,
-              'Vanilla JavaScript, XML'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'strawberryDOM is a DOM manipulation library.'
-            ),
-            _react2.default.createElement(
-              'ul',
-              { className: 'project-ul' },
-              _react2.default.createElement(
-                'li',
-                null,
+                'ul',
+                { className: 'project-ul' },
                 _react2.default.createElement(
-                  'ul',
+                  'li',
                   null,
-                  'Users can:',
-                  _react2.default.createElement(
-                    'li',
-                    null,
-                    'Create or remove HTML elements from the DOM.'
-                  ),
-                  _react2.default.createElement(
-                    'li',
-                    null,
-                    'Toggle classes'
-                  ),
-                  _react2.default.createElement(
-                    'li',
-                    null,
-                    'Access parents or children of a given element'
-                  ),
-                  _react2.default.createElement(
-                    'li',
-                    null,
-                    'Create or remove event listeners'
-                  ),
-                  _react2.default.createElement(
-                    'li',
-                    null,
-                    'Send ajax-equivalent XML requests'
-                  )
+                  'Live messaging is made possible using Rails\u2019 Websockets interface (Action Cable)'
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  'Users maintain access to their channels/direct messages via systematic database storage'
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  'Includes a GIPHY API shortcut available in any channel or direct message'
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  'Ensures user and database security via end-to-end authentication'
+                )
+              ),
+              _react2.default.createElement(
+                'div',
+                { className: 'links' },
+                _react2.default.createElement(
+                  'a',
+                  { className: 'link', href: 'http://slide-chat-app.herokuapp.com/#/' },
+                  'Live'
+                ),
+                _react2.default.createElement(
+                  'a',
+                  { className: 'link', href: 'https://github.com/lsiler23/slide' },
+                  'Github'
                 )
               )
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'project' },
+            _react2.default.createElement(
+              'div',
+              { className: 'spacealone-pic' },
+              _react2.default.createElement('img', { className: 'spacealone-still off', src: './assets/spacealone.png' }),
+              _react2.default.createElement('img', { className: 'spacealone-gif', src: './assets/spacealone4.gif' })
             ),
             _react2.default.createElement(
               'div',
-              { className: 'links' },
+              { className: 'project-info' },
               _react2.default.createElement(
-                'a',
-                { className: 'link', href: 'https://lsiler23.github.io/strawberryDOMDemo/' },
-                'Live Demo'
+                'h2',
+                null,
+                'SpaceAlone'
               ),
               _react2.default.createElement(
-                'a',
-                { className: 'link', href: 'https://github.com/lsiler23/strawberryDOM' },
-                'Github'
+                'h3',
+                null,
+                'Vanilla JavaScript, HTML5, CSS3'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                'SpaceAlone is an arcade-like game in which the player must respond to directives and perform the corresponding action for points - on a spaceship..'
+              ),
+              _react2.default.createElement(
+                'ul',
+                { className: 'project-ul' },
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  'Players can choose their level of difficulty before each game, allowing for a more customizable experience.'
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  'A randomized directive  generator turns on event listeners on only the target controls.'
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  'If a directive is completed in time, additional directives are provided to promote game responsiveness.'
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  'Though randomized, the generator is aware of default settings on controls, as well as which other variations are allowed per each control.'
+                )
+              ),
+              _react2.default.createElement(
+                'div',
+                { className: 'links' },
+                _react2.default.createElement(
+                  'a',
+                  { className: 'link', href: 'https://lsiler23.github.io/SpaceAlone/' },
+                  'Live'
+                ),
+                _react2.default.createElement(
+                  'a',
+                  { className: 'link', href: 'https://github.com/lsiler23/SpaceAlone' },
+                  'Github'
+                )
+              )
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'project' },
+            _react2.default.createElement(
+              'div',
+              { className: 'strawberry-pic' },
+              _react2.default.createElement('img', { className: 'strawberry-still off', src: './assets/strawberry.png' }),
+              _react2.default.createElement('img', { className: 'strawberry-gif', src: './assets/adompt.gif' })
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'project-info' },
+              _react2.default.createElement(
+                'h2',
+                null,
+                'strawberryDOM'
+              ),
+              _react2.default.createElement(
+                'h3',
+                null,
+                'Vanilla JavaScript, XML'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                'strawberryDOM is a DOM manipulation library.'
+              ),
+              _react2.default.createElement(
+                'ul',
+                { className: 'project-ul' },
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    'ul',
+                    null,
+                    'Users can:',
+                    _react2.default.createElement(
+                      'li',
+                      null,
+                      'Create or remove HTML elements from the DOM.'
+                    ),
+                    _react2.default.createElement(
+                      'li',
+                      null,
+                      'Toggle classes'
+                    ),
+                    _react2.default.createElement(
+                      'li',
+                      null,
+                      'Access parents or children of a given element'
+                    ),
+                    _react2.default.createElement(
+                      'li',
+                      null,
+                      'Create or remove event listeners'
+                    ),
+                    _react2.default.createElement(
+                      'li',
+                      null,
+                      'Send ajax-equivalent XML requests'
+                    )
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                'div',
+                { className: 'links' },
+                _react2.default.createElement(
+                  'a',
+                  { className: 'link', href: 'https://lsiler23.github.io/strawberryDOMDemo/' },
+                  'Live Demo'
+                ),
+                _react2.default.createElement(
+                  'a',
+                  { className: 'link', href: 'https://github.com/lsiler23/strawberryDOM' },
+                  'Github'
+                )
               )
             )
           )
@@ -19021,8 +19030,8 @@ var Contact = exports.Contact = function Contact() {
         'Email'
       ),
       _react2.default.createElement(
-        'div',
-        null,
+        'a',
+        { href: 'mailto:siler.laurette@gmail.com' },
         'siler.laurette@gmail.com'
       ),
       _react2.default.createElement(

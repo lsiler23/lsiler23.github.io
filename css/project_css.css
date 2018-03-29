@@ -1,13 +1,13 @@
 .projects-content {
   top: 65px;
-  left: 50px;
+  overflow-y: scroll;
   position: relative;
   font-family: 'Lora', serif;
 }
 
 .project-h1 {
   font-size: 30px;
-  width: 90%;
+  width: 100%;
   padding: 35px;
   padding-bottom: 20px;
   top: 130px;
@@ -16,6 +16,10 @@
   border-bottom: 1px solid lightgrey;
   z-index: 1;
   background-color: white;
+}
+
+.all-projects {
+  height: 800px;
 }
 
 .project {

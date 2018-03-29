@@ -1,12 +1,12 @@
 .contact-content {
   position: relative;
   top: 177px;
-  left: 50px;
+  height: 800px;
 }
 
 .contact-h1 {
   font-size: 30px;
-  width: 90%;
+  width: 100%;
   padding: 35px;
   top: 130px;
   position: fixed;
@@ -15,6 +15,7 @@
   z-index: 1;
   background-color: white;
 }
+
 .contact-info-details {
   position: relative;
   top: -16px;
@@ -23,7 +24,7 @@
   text-align: center;
   padding: 20px;
   border-radius: 3px;
-  margin-left: calc(100% - 1154px);
+  margin: 0 auto;
   color: white;
   text-shadow: 1px 1px black;
   background-color: #877f7f;

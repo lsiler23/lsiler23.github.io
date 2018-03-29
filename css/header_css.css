@@ -43,8 +43,8 @@
 }
 
 .main-content {
-  overflow-y: scroll;
-  height: 600px;
+  overflow-y: hidden;
+  height: 100%;
   position: relative;
   top: 130px;
   overflow-x: hidden;

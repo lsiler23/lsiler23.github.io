@@ -1,13 +1,13 @@
 .about-me-content {
   display: flex;
   font-family: 'Lora', serif;
-  overflow-y: hidden;
+  overflow-y: scroll;
 }
 
 .main-photo {
   padding: 10px;
-  margin-left: calc(100% - 1513px);
-  top: 208px;
+  left: 13%;
+  top: 29%;
   position: fixed;
 }
 
@@ -21,7 +21,9 @@
   margin-top: 52px;
   padding: 10px;
   width: 600px;
-  margin-left: calc(100% - 900px);
+  height: 700px;
+  position: relative;
+  left: 43%;
 }
 
 .personal h1 {

@@ -17,7 +17,12 @@ export const AboutMe = () => {
           <h1>My name is Laurette Siler and I'm a Software Developer</h1>
           <p>
             {
-              "In early 2017, I discovered a love for coding unexpectedly. I was working as a member of the Customer Experience Tech Team at Blue Apron and tasked with reporting bugs in the website and iOS app to the Engineering Department. I became fascinated with the end-to-end communication involved in ensuring that the website continued running smoothly. My fascination escalated over time, so I decided to take the leap and start teaching myself to code."
+              "I discovered a love for coding in a buggy place. My job was to research and report bugs to a team of talented engineers. I became fascinated with the complex end-to-end communication involved in ensuring that the company I was working for continued running smoothly. At the end of the day, I learned, success was measured by how easily customers were able to interact with their accounts."
+            }
+          </p>
+          <p>
+            {
+              "My fascination escalated quickly. I started to devote all of my free time to reading books on Ruby and JavaScript. I broke and fixed my own programs every chance I could get. Finally, I decided to take a risk for the thing I loved to do and attended a coding intensive program."
             }
           </p>
           <p>

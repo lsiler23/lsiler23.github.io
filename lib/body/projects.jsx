@@ -43,7 +43,6 @@ export default class Projects extends React.Component {
               <h3>Rails, React/Redux, Action Cable/Websockets</h3>
               <p>Slide is a live messaging app.</p>
               <ul className='project-ul'>
-                <li>Live messaging is made possible using Rails’ Websockets interface (Action Cable)</li>
                 <li>Users maintain access to their channels/direct messages via systematic database storage</li>
                 <li>Includes a GIPHY API shortcut available in any channel or direct message</li>
                 <li>Ensures user and database security via end-to-end authentication</li>

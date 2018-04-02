@@ -18801,11 +18801,6 @@ var Projects = function (_React$Component) {
                 _react2.default.createElement(
                   'li',
                   null,
-                  'Live messaging is made possible using Rails\u2019 Websockets interface (Action Cable)'
-                ),
-                _react2.default.createElement(
-                  'li',
-                  null,
                   'Users maintain access to their channels/direct messages via systematic database storage'
                 ),
                 _react2.default.createElement(
@@ -18909,7 +18904,7 @@ var Projects = function (_React$Component) {
               'div',
               { className: 'strawberry-pic' },
               _react2.default.createElement('img', { className: 'strawberry-still off', src: './assets/strawberry.png' }),
-              _react2.default.createElement('img', { className: 'strawberry-gif', src: './assets/adompt2.gif' })
+              _react2.default.createElement('img', { className: 'strawberry-gif', src: './assets/adompt3.gif' })
             ),
             _react2.default.createElement(
               'div',

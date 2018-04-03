@@ -18904,7 +18904,7 @@ var Projects = function (_React$Component) {
               'div',
               { className: 'strawberry-pic' },
               _react2.default.createElement('img', { className: 'strawberry-still off', src: './assets/strawberry.png' }),
-              _react2.default.createElement('img', { className: 'strawberry-gif', src: './assets/adompt3.gif' })
+              _react2.default.createElement('img', { className: 'strawberry-gif', src: './assets/adompt5.gif' })
             ),
             _react2.default.createElement(
               'div',

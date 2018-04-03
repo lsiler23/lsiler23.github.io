@@ -77,7 +77,7 @@ export default class Projects extends React.Component {
           <div className='project'>
             <div className='strawberry-pic'>
               <img className='strawberry-still off' src='./assets/strawberry.png'/>
-              <img className='strawberry-gif' src='./assets/adompt3.gif' />
+              <img className='strawberry-gif' src='./assets/adompt5.gif' />
             </div>
             <div className='project-info'>
               <h2>strawberryDOM</h2>

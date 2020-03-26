@@ -1,33 +1,6 @@
 import React from 'react';
 
 export default class Projects extends React.Component {
-  constructor() {
-    super();
-    this.state = { currentHover: null };
-    // this.onHover = this.onHover.bind(this);
-  }
-  //
-  // toggleGifAndStill(type) {
-  //   if (type === `${this.state.currentHover}-still` && type !== `${type}-gif`) {
-  //     return `${type}-still off`;
-  //   } else {
-  //     return `${type}-still`;
-  //   }
-  //
-  //   if (type === this.state.currentHover) {
-  //     return `${type}-gif`;
-  //   } else {
-  //     return `${type}-gif off`;
-  //   }
-  // }
-  //
-  // onHover() {
-  //   return (e) => {
-  //     this.setState({ currentHover: `${e.relatedTarget.className.split('-')[0]}`});
-  //   }
-  //   this.setState({ currentHover: null })
-  // }
-
   render() {
     return (
       <div className='projects-content'>

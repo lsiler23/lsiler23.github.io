@@ -7,7 +7,7 @@ export const AboutMe = () => {
       <div className='main-photo'>
         <img className='actual-photo' src='./assets/mepic.png'/>
         <div className='links'>
-          <a href='./assets/resume.pdf'>Resume</a>
+          <a href='./assets/Laurette_Siler_Resume.pdf'>Resume</a>
           <a href='https://github.com/lsiler23'>Github</a>
           <a href='https://www.linkedin.com/in/laurette-siler-b4335569/'>LinkedIn</a>
         </div>
@@ -27,13 +27,33 @@ export const AboutMe = () => {
           </p>
           <p>
             {
-              "Now, I'm experienced in every aspect of Full Stack development. So far, I've been working with Ruby on Rails on the backend and React and Redux on the frontend, though I'm excited to expand my knowledge every chance I can get. I absolutely love my career and can't wait to continue to build amazing apps."
+              "Now, I'm experienced in every aspect of Full Stack development, and have been working for 2 years at a company that develops software for clinical trials. So far, I've been working with Ruby on Rails on the backend and React and Redux on the frontend, though I'm excited to expand my knowledge every chance I can get. I absolutely love my career and can't wait to continue to build amazing apps."
             }
           </p>
         </div>
       <div className='skills'>
         <h2>Skill Set</h2>
         <div className='all-icons'>
+          <div className='icon'>
+            <img src='./assets/ruby.svg.png'/>
+            <span>Ruby</span>
+          </div>
+          <div className='icon'>
+            <img src='./assets/rails.png'/>
+            <span>Rails</span>
+          </div>
+          <div className='icon'>
+            <img src='./assets/mysql.png'/>
+            <span>MySQL</span>
+          </div>
+          <div className='icon'>
+            <img src='./assets/postgresql.svg.png'/>
+            <span>PostgreSQL</span>
+          </div>
+          <div className='icon'>
+            <img src='./assets/aws.html'/>
+            <span>AWS</span>
+          </div>
           <div className='icon'>
             <img src='./assets/react.png'/>
             <span>React</span>
@@ -47,28 +67,8 @@ export const AboutMe = () => {
             <span>JavaScript</span>
           </div>
           <div className='icon'>
-            <img src='./assets/ruby.svg.png'/>
-            <span>Ruby</span>
-          </div>
-          <div className='icon'>
-            <img src='./assets/rails.png'/>
-            <span>Rails</span>
-          </div>
-          <div className='icon'>
-            <img src='./assets/postgresql.svg.png'/>
-            <span>PostgreSQL</span>
-          </div>
-          <div className='icon'>
-            <img src='./assets/jquery.png'/>
-            <span>jQuery</span>
-          </div>
-          <div className='icon'>
             <img src='./assets/html.ico'/>
             <span>HTML5</span>
-          </div>
-          <div className='icon'>
-            <img src='./assets/css3.png'/>
-            <span>CSS3</span>
           </div>
         </div>
       </div>
